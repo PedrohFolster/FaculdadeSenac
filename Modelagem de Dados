@@ -1,4 +1,0 @@
-1º Um dado sozinho não tem relevância, ele constroi a informação, com isso podemos adquirir o conteúdo.
-2º Dados estruturado, possuem estrutura rígida e previamente definida. Exemplo: Banco de Dados // Relacional
-3º Dados não estruturado, são dados que não possuem estrutura ou arquitetura identificável. Exemplos: Textos, arquivos, documentos, imagens, videos, audios, redes sociais, etc. 
-4º Os dados semiestruturados não têm um esquema definido. Não cabem num formato de tabelas / linhas / colunas, mas são organizados por meio de etiquetas ou “tags” que permitem agrupá-los e criar hierarquias. São também conhecidos como não-relacionais ou NoSQL. Exemplos: XML, JSON, RDF, OWL.
