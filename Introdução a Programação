@@ -1,0 +1,43 @@
+1º Sempre que for armazenar uma variavel, colocar o seu tipo, "int" para números, String para nomes.
+2º int somente para numero inteiro, não pode incluir virgula.
+3º int somente para números, não pode incluir caractere.
+4º String pode incluir simbolos, e caracteres.
+5º int Idade = 10; --> Valor definido para a variavel idade é igual a 10.
+6º for([Variavel] < 10); Essa variavel tem que ser um valor menor do que 10, isso também serve para o sinal de maior ">", nesse caso somente um valor maior que 10.
+
+7º Número em binário não pode conter virugla, ou seja, vamos dividir até não conseguir mais, exemplo 1/2, o que não é possível, logo após isso deveremos somar as casinhas da escada para obter o resultado em número binário.
+8º Todos os valores inteiros devem ser armazenados em "int", logo seria em 32 Bits.
+
+9º No valor do tipo Float deve se usar "." para separar números, como em: 56.77, prosseguido do F, ou seja, 56.77F.
+
+10º Incremento de valores:
+X = 5
+Y = 2
+
+Resultado = ++ X * Y {12}
+OutroResultado = X++ * Y {12} e se adiciona +1 a X, passando a valer 7.
+
+11º Decremento de valores:
+
+X = 4
+Y = 2
+
+Resultado = --X * Y {6}
+OutroResultado = X-- * Y {6} e o valor se X passa a ser 2.
+
+12º
+Java foi a feira e comprou 1kg de maça de maça a 7,25 reais o quilo e 3 quilos de laranja a 5,5 reais, o quilo.
+quanto que java gastou na feira?
+desenvolva o algoritmo que resolve o problema
+
+Resultado:
+public class JavaFeira {
+    public static void main(String[] args) {
+
+        double maca = 7.25;
+        double laranja = 5.5 * 3;
+
+        System.out.println("Java foi a feira e comprou 1kg de maça de maça a 7,25 reais o quilo e 3 quilos de laranja a 5,5 reais, o quilo.");
+        System.out.println("O valor total é de: " + (maca + laranja) + ".");
+    }
+}
